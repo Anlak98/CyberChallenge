@@ -15,3 +15,5 @@ We can remove the sanwiches 207 and 155 to obtain a decreasing sequence:
  > 389 300 299 170 158 65
  
  Of maximum total weight 1381.
+
+ My solution is not very efficient; it tests all potential lists before discarding a value that interrupts a decreasing sequence. I can elaborate up to input 5.

@@ -68,11 +68,11 @@ for y in range(22):
     text = file.readline()
     text = file.readline()
     prov = []
-    soluzione = []
+    solution = []
     prov = (text.strip()).split()
     for x in prov:
-        soluzione.append(int(x))
-    print("\nsoluzione "+str(y)+": ", soluzione, "\n")
+        solution.append(int(x))
+    print("\Solution "+str(y)+": ", solution, "\n")
 
-    print((str(y), lista_out == soluzione))
-    results.append((str(y), lista_out == soluzione))
+    print((str(y), lista_out == solution))
+    results.append((str(y), lista_out == solution))
